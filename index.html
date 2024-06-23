@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyaki Ray's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=New+Tegomin&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="head">
+        <nav class="navbar" data-aos="fade-right" data-aos-duration="2000">
+            <ul>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="about.html#acti">ACTIVITIES</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <nav class="social" data-aos="fade-left" data-aos-duration="1000">
+            <ul>
+                <li><a href="https://www.instagram.com/strontium3000/" target="_blank"><img src="instagram.png"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/satyaki-ray-08392916b/" target="_blank"><img
+                            src="linkedin.png"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61553016682170" target="_blank"><img
+                            src="facebook.png"></a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br>
+    <div class="mid" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="me.jpg" alt="Satyaki Ray">
+        <div class="intro"><span class="hello">Hello!</span><br><br> <span class="det">I'm <span id="me">Satyaki
+                    Ray</span>. I hail from Bangaon, West Bengal and am currently pursuing my B.Tech in IIT Guwahati. I
+                am a tech enthusiast and love to solve problems. Feel free to roam around my website and explore more
+                about me!</span></div>
+    </div>
+    <div class="s1"></div>
+    <div class="s2"></div>
+    <div class="s3"></div><br><br>
+    <hr><br>
+    <section id="contact">
+    <div class="c">Feel free to reach out to me!!</div>
+    <div class="contact">
+        <form onsubmit="return validate()" id="form" action="message.html">
+            <input type="text" name="fname" class="n" id="fn" placeholder="Your first name e.g. Elon">&nbsp;&nbsp;
+            <input type="text" name="lname" class="n" id="ln" placeholder="Your last name e.g. Musk"><br><br>
+            <input type="email" name="mail" class="m" id="mail" placeholder="Your email id e.g. emusk@web.com"><br>
+            <textarea name="comm" placeholder="Your message" id="comm"></textarea><br><br>
+            <button type="submit" name="submit" class="submit" id="sub">Submit</button>
+        </form>
+    </div>
+    </section>
+    <div class="footer">
+        <address>
+            <pre>
+    Postal Address: <a href="https://maps.app.goo.gl/5izcDKMYppAjHyEc8">Nutangram, Bangaon,
+                    Dist-24 PGS(N),                                                         
+                    West Bengal,India
+                    PIN-743235</a>                                                          Email: <a href="mailto:sraystark3000@gmail.com">sraystark3000@gmail.com</a>                                                                 Tel: <a href="tel:+919333819882">+919333819882</a>
+            </pre>
+        </address>
+            <pre>                                                                                  Copyright &copy; 2024 Satyaki Ray. All rights reserved.</pre>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("pp.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+}
+
+.bas{
+    font-size: larger;
+}
+
+.head {
+    background-color: rgb(235, 243, 235);
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.head:hover {
+    background-color: hwb(0 34% 8%);
+    height: 60px;
+    border-radius: 10px;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    justify-content: center;
+    margin-right: 6%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.gym,
+.vac,
+.fin {
+    position: relative;
+    overflow: hidden;
+    width: 22vw;
+    height: 35vw;
+    margin: 3% 0%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.gym {
+    background-image: url('gym_imagep.webp');
+    background-size: cover;
+    color: black;
+}
+
+.vac {
+    background-image: url('vaccinep.webp');
+    background-size: cover;
+}
+
+.fin {
+    background-image: url('financep.webp');
+    background-size: cover;
+}
+
+.gym:hover,
+.fin:hover,
+.vac:hover {
+    opacity: 1;
+}
+
+.fin:hover {
+    opacity: 1;
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(1, 1, 41);
+    height: 200px;
+    width: 1480px;
+    color:wheat;
+    padding: 10px;
+    text-align: left;
+    a{
+        color:wheat;
+        text-decoration: none;
+        padding: 5px;
+    }
+    a:hover{
+        color:green;
+    }
+}
+
